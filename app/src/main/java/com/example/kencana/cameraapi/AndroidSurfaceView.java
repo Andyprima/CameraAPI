@@ -108,7 +108,7 @@ public class AndroidSurfaceView extends Activity implements SurfaceHolder.Callba
 
 
         try {
-           // camera.setDisplayOrientation(90);
+            camera.setDisplayOrientation(90);
 
             camera.setPreviewDisplay(surfaceHolder);
             camera.startPreview();
